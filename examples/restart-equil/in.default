@@ -1,0 +1,12 @@
+# BENCHMARK - BDMAG_24Nov2011: restart equilibration example
+
+read_restart restart.data
+
+timestep 0.1
+
+stats_every 10
+traj_every 100
+restart_every 100
+hist_every 100 20
+
+equil 1000

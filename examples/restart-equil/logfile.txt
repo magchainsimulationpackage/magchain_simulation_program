@@ -1,0 +1,41 @@
+*******************************************************************
+ MagChain 24Nov2011
+ web: www.icmab.es/softmattertheory/
+ Please include this reference in published work using MagChain:
+ arXiv:1111.5784 [cond-mat.soft]
+*******************************************************************
+
+restart data file used: restart.data
+initial number of particles: 500
+initial number of objects: 500
+timestep: 0.1
+simulation box: 100 100 200
+
+volume (length unit: diameter colloids) = 2e+06
+number density (Num parts./Volume) = 0.00025
+volume fraction = 0.0001309
+
+new attraction radius values found:
+old values (from restart file):
+
+new values:
+(1) 0
+
+
+histogram size 20
+save stats every 10 timestep(s)
+save trajectory every 100 timestep(s)
+save restart file every 100 timestep(s)
+save histogram every 100 timestep(s)
+
+equilibration limit: 1000
+
+##### end initialization #####
+
+Equilibration for 1000 timesteps...
+
+Elapsed Equilibration time: 24 seconds
+
+Production for 0 timesteps...
+
+Elapsed Production time: 0 seconds

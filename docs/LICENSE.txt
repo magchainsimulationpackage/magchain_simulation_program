@@ -1,0 +1,128 @@
+ACADEMIC LICENCE for INDIVIDUALS
+
+Motivation and Preamble
+
+The MAGCHAIN program has been devised for use in academic research within the academic 
+community. Some conditions have been defined for the use, distribution, and modification of the 
+program, which the authors consider fair and within the common fair practices in the academic 
+community.
+
+Individuals in companies or industry, including also spin-off or start-up companies and members of the 
+academic community acting as consultants for private companies, are not allowed to employ the 
+MAGCHAIN package under this Academic License. However, they are encouraged to contact the 
+authors of the package and obtain a specific agreement for their specific use of the MAGCHAIN 
+package.
+
+1. Definitions
+
+"The Authors" are:
+
+    * Jordi S. Andreu, ICMAB-CSIC and Universitat Autònoma de Barcelona, Barcelona
+    * Carles Calero, ICMAB-CSIC and Universitat Autònoma de Barcelona, Barcelona
+    * Juan Camacho, Universitat Autònoma de Barcelona
+    * Jordi Faraudo, ICMAB-CSIC, Barcelona
+
+"The Copyright-Holders" are:
+
+    * Universitat Autònoma de Barcelona (UAB)
+    * Agencia Estatal Consejo Superior de Investigaciones Científicas (CSIC)
+
+The valid distributors of the MAGCHAIN package ("The Distributors") are the authors, and Copyright-
+Holders as specified above.
+
+"The MAGCHAIN package" is the suite of software, including the MAGCHAIN code itself, but also 
+all other software, documentation, scripts, and ancillary support material. The MAGCHAIN package is 
+distributed as a single entity. This License covers the entirety of said data.
+
+The Licensee is the person (never an institution) to whom the MAGCHAIN package is distributed 
+(under the terms of this Licence) by the Distributors; they are bound by this agreement.
+
+2. NO WARRANTY
+
+There is no warranty for any part of the MAGCHAIN package. The MAGCHAIN package is provided 
+by the Distributors "as-is" without warranty of any kind, either as expressed or implied, including but 
+not limited to the implied warranties of merchantability or fitness for a particular purpose. In no event 
+shall the Distributors be liable for any direct, indirect, incidental, special, exemplary, or consequential 
+damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or 
+profits; or business interruption) however caused and on any theory of liability, whether in contract, 
+strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this 
+software, even if advised of the possibility of such damage. The entire risk as to the quality or 
+performance of the program, or any action the Licensee may take based on the output of any part of the 
+MAGCHAIN package, is with the Licensee.
+
+3. Limitation of Usage
+
+The use of the MAGCHAIN package under the present Licence is restricted solely to individuals 
+working in academic institutions (including universities and non-military public research laboratories) 
+and for academic purposes, i.e., leading to open publication of results, with neither withhold of 
+information nor intentional delay in publication. The use of the MAGCHAIN code in start-up or spin-
+off companies or any other kind of companies with links of any nature to the academic community is 
+not allowed by the present License. 
+
+Notwithstanding these general definitions, the Authors reserve the exclusive right to determine what 
+purposes and institutions are eligible for using the MAGCHAIN package under this Licence, and to 
+withhold the right to use the software where they are not satisfied that either condition is fulfilled.
+
+The Licensee is hereby provided with a non-exclusive, royalty-free right to use any part of the 
+MAGCHAIN package. The displaying, publishing, performing, or otherwise using of results obtained 
+by use of the MAGCHAIN package in any form is subject to the restriction that in any paper or other 
+academic publication containing results wholly or partially derived from the results of use of the 
+MAGCHAIN package, the following paper must be cited in the normal manner:
+
+"On-the-fly coarse-graining methodology for the simulation of chain formation of              
+superparamagnetic colloids in strong magnetic fields" by Jordi S. Andreu, Carles Calero, Juan 
+Camacho and Jordi Faraudo, arXiv:1111.5784 [cond-mat.soft].
+
+Other papers relevant to the MAGCHAIN package and method should be cited as best scientific 
+practice dictates.
+
+Licensees are recommended to send reference to the Authors of any publication containing results 
+wholly or partially derived from the results of use of the MAGCHAIN package.
+
+The above-mentioned right to use the code is extensive to the members of the research group of the 
+Licensee as long as the use is in collaboration with the Licensee leading to co-authored publication(s).
+
+4. Support
+
+The present License does not imply support services of any kind to the Licensee by the Distributors, 
+including, but not limited to, installation, compilation and use of the software in the package.
+
+5. Modification
+
+Licensees are permitted to modify MAGCHAIN for their own privative use; in any paper containing 
+results wholly or partially derived from the use of a modified version of MAGCHAIN, the authors are 
+required to state that a privately modified version of MAGCHAIN is used, and satisfy the conditions of 
+use stated above.
+
+The Authors encourage Licensees to submit their modifications of the MAGCHAIN package to them, 
+so that the MAGCHAIN package can be improved for all users. Licensees can thereby benefit from the 
+ulterior developments of MAGCHAIN.
+
+To this end, the Authors wish to encourage Licensees to make modifications to the MAGCHAIN 
+package but always maintaining its structure. This permits maintenance of these modifications as a 
+separate entity in many cases, and may allow their separation from MAGCHAIN and distribution as a 
+separate piece of software: in that case, such software is not subject to this Licence, and the authors of 
+the separate software are free to choose any licensing terms they desire.
+
+However, if a given modification must be incorporated directly into the MAGCHAIN package (this 
+will be a "Contributed Code"), the author(s) of any such modifications must provide a perpetual, 
+royalty-free, irrevocable license to the Authors and the Copyright-Holder, to further modify their 
+Contributed Code as may prove necessary for the future development of MAGCHAIN, and to 
+distribute the Contributed Code (in its original or any later modified form) as part of the MAGCHAIN 
+package.
+
+6. Redistribution
+
+The authors reserve the exclusive right to distribute the MAGCHAIN package. Licensees have no right 
+to distribute the MAGCHAIN package, a modified or alternative version thereof, or any other program 
+making direct use of parts of the MAGCHAIN package, without the prior written consent of the 
+Authors.
+
+7. All Other Rights
+
+All other rights not explicitly mentioned in this document are reserved. In particular, the Authors 
+reserve for themselves all rights to resolve any and all conflicts arising in the development and 
+distribution policies of the MAGCHAIN package.
+
+
+ 
