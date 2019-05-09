@@ -1,5 +1,5 @@
 # magchain_main_program
-Main program for MagChain simulations
+Main program for MagChain simulations with examples and tools to prepare simulations
 
 This program is for scientific and academic non-commercial purposes
 
