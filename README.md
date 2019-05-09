@@ -2,6 +2,7 @@
 Main program for MagChain simulations
 
 This program is for scientific and academic non-commercial purposes
+
 See docs folder for installation instructions and how to prepare and run simulations
 
 When using this program please cite the following basic references:
