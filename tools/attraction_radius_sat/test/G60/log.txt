@@ -1,0 +1,5 @@
+***** attradius Summary *****
+Aggregate size range: [1,100]
+Magnetic coupling parameter (Gamma): 60
+Tolerance: 0.0001
+*****************************

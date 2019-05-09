@@ -1,0 +1,15 @@
+***** attradius Summary *****
+Aggregate size range: [1,100]
+Particle diameter [m]: 6e-07
+Magnetic susceptibility: 0.9
+Magnetic dipole at saturation [J/T]: 0
+Langevin fitting parameter [1/T]: 0
+External magnetic field [T]: 0.00781
+Temperature [K]: 298
+Magnetic coupling parameter (Gamma) at saturation: 0
+Minimum average Gamma: 90.0634
+Maximum average Gamma: 133.544
+Maximum Gamma at the edge: 118.947
+Energy tolerance: 0.0001
+Magnetization tolerance: 1e-05
+*****************************
