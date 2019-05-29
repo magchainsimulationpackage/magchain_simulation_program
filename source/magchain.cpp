@@ -10,7 +10,7 @@
 /*
  *  magchain.cpp
  *  MagChain
- *  Version: 24/11/2011
+ *  Version: 22/05/2019
  * 
  */
 
@@ -73,7 +73,7 @@ void write_xyz_cg(vector <CAggregate> &aggregate, int ts, ostream &out, ostream 
 
 ///// Global VARIABLES Declarations /////
 string notice;
-string version = " MagChain 24Nov2011";
+string version = " MagChain 22May2019";
 string web = " web: www.icmab.es/softmattertheory/";
 string agree = " Please include this reference in published work using MagChain:";
 string ref = " arXiv:1111.5784 [cond-mat.soft]";
@@ -287,6 +287,9 @@ int main(int argc, char * const argv[]){
 	//	CALCULATION OF RELEVANT MAGNITUDES AND WRITING TO OUTPUT FILES 
 	//
 	// ------------------------------------------------
+
+	//Time output changed by Àlex Giménez in all output files (stats and histogram). Now rather than writting the current timestep of calculation
+	//it writes the time of calculation in adimensional units, this is tot say it writes nt*dt rather than nt.
 		
 	// CALCULATES THE STATISTICS
 	if (nt % every_stats == 0){
@@ -308,16 +311,16 @@ int main(int argc, char * const argv[]){
 		elapsed_time = difftime (end,start);
 		//////////////
 
-
+		 
 		cout.setf(ios::fixed,ios::floatfield);
-		cout << "timestep:" << setprecision(0) << nt << "; A:" << aggregate.size() << "; N:" << setprecision(5) << smean1 << "; S:"  << smean << "; ET:" << elapsed_time << ";" << endl;
+		cout << "timestep:" << setprecision(2) << nt*dt << "; A:" << aggregate.size() << "; N:" << setprecision(5) << smean1 << "; S:"  << smean << "; ET:" << elapsed_time << ";" << endl;
 		logfile.setf(ios::fixed,ios::floatfield);
-		logfile << "timestep:" << setprecision(0) << nt << "; A:" << aggregate.size() << "; N:" << setprecision(5) << smean1 << "; S:"  << smean << "; ET:" << elapsed_time << ";" << endl;
+		logfile << "timestep:" << setprecision(2) << nt*dt << "; A:" << aggregate.size() << "; N:" << setprecision(5) << smean1 << "; S:"  << smean << "; ET:" << elapsed_time << ";" << endl;
 		
 		// WRITES TO STATS FILE:
 		
 		statsfile.setf(ios::fixed,ios::floatfield);
-		statsfile << setprecision(0) << nt << " " << aggregate.size() << " " << setprecision(5) << smean1 << " "  << smean << " " << elapsed_time << endl;
+		statsfile << setprecision(2) << nt*dt << " " << aggregate.size() << " " << setprecision(5) << smean1 << " "  << smean << " " << elapsed_time << endl;
 
 	}
 
@@ -335,7 +338,7 @@ int main(int argc, char * const argv[]){
                                 
             }
             
-            histogramfile << nt  << " " << aggregate.size() << " ";	
+            histogramfile << nt*dt  << " " << aggregate.size() << " ";	
             for (int i=0; i<histogram.size(); i++){
                 
                 histogramfile << " " << histogram[i];
@@ -345,7 +348,7 @@ int main(int argc, char * const argv[]){
             
             histogramfile << endl;
             
-            if (badcount!=0) { logfile << "warning: truncated histogram at timestep" << nt << ". Number of aggregates skipped: " << badcount << endl; }
+            if (badcount!=0) { logfile << "warning: truncated histogram at timestep" << nt*dt << ". Number of aggregates skipped: " << badcount << endl; }
 	
         }
     }
