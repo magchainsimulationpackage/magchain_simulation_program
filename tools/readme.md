@@ -10,3 +10,6 @@ We include here programs for two different approximations: a fixed dipole for th
 C++ program with graphical interface in Qt4 to generate the input files needed by MagChain.
 
 
+# MagChain Analysis
+
+Python analysis tool with a PyQt5 graphical interface implemented.
