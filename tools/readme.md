@@ -12,4 +12,4 @@ C++ program with graphical interface in Qt4 to generate the input files needed b
 
 # MagChain Analysis
 
-Python analysis tool with a PyQt5 graphical interface implemented.
+Python analysis tool for MagChain output files with a PyQt5 graphical interface implemented.
